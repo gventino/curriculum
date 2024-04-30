@@ -21,9 +21,7 @@ function render_repos(repos) {
         repo_link.href = repo.html_url;
         repo_link.textContent = repo.name;
         list_item.appendChild(repo_link);
-        list_item.appendChild(list_item);
-        console.log(repo_link.href)
-        console.log(repo_link.textContent)
+        repos_list.appendChild(list_item);
     });
 }
 
