@@ -27,5 +27,5 @@ function render_repos(repos) {
     });
 }
 
-//document.addEventListener('DOMContentLoaded', fetch_github_repos);
+document.addEventListener('DOMContentLoaded', fetch_github_repos);
 
